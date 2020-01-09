@@ -1,0 +1,232 @@
+.container{
+  width: 1200px;
+  margin: 0 auto;
+	
+}
+#header{
+  background-image: url('../image/background.jpg');
+margin-top: 0;
+  background-size: 100% 100%;
+  height: 670px;
+  color: #FFF
+}
+#overlay{
+  background-color: rgba(0 , 0, 0, 0.6);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+#header #overlay #nav{
+  clear: both;
+  height: 46px;
+  background-color: rgba(0,0,0,.5);
+}
+#header #overlay #nav ul{
+  margin:0;
+  text-align: center;
+
+}
+#header #overlay #nav ul li{
+  list-style: none;
+  float: right;
+  margin: 10px 8px;
+  border-right: 1px solid #FFF;
+  padding: 0 10px ;
+  text-align: center;
+  font-weight: lighter;
+  margin-left: 0px;
+    padding-left: 0px;
+    font-size: 20px;
+}
+#header #overlay #nav ul li a{
+  text-decoration: none;
+  color: inherit;
+
+}
+#header #overlay #nav ul li a:hover{
+  color: rgb(11, 128, 90);
+}
+#header #overlay #nav img{
+  height: 43px;
+float: right;
+margin-right: 90px;
+}
+#header #overlay #nav ul li:nth-child(1){
+  border-right: 0 ;
+  padding-left: 0;
+  margin-left: 0;
+}
+#header #overlay #search {
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid gray;
+  font-size: 20px;
+  width: 400px;
+    float: right;
+    margin: 10px 45px;
+}
+#header #overlay #search form  i{
+  color: gray;
+  padding-right: 6;
+  margin-right: 0;
+}
+#header #overlay  #search form  input{
+  background: transparent;
+    border: 0;
+    width: 361px;
+    border-collapse: collapse;
+    color: gray;
+    padding-left: 6px;
+}
+
+/*sda*/
+#regest{
+	width: 800px;
+	margin: 15px auto;
+	font-family: 'Asap Condensed', sans-serif;
+}
+#regest form .box{
+	margin: 15px;
+	width: 70%;
+	height: 30px;
+	border-radius: 10px 0;
+	text-align: center;
+	background-color: transparent;
+    color: white;
+}
+#regest form{
+	text-transform: uppercase;
+	margin-left: 52px;
+	font-family: 'Asap Condensed', sans-serif;
+}
+#regest form input[type="radio"]{
+	margin: 10px;
+	margin-left: 11px;
+	font-family: 'Asap Condensed', sans-serif;
+	
+}
+#regest form .radio{
+	text-transform: capitalize;
+	font-family: 'Asap Condensed', sans-serif;
+	
+}
+#regest form select{
+	width: 72%;
+	margin-left: 10px;
+	padding: 5px 6px;
+	font-family: 'Asap Condensed', sans-serif;
+}
+#regest form input[type="submit"]{
+	background-color: rgb(236,73,73);
+    border: 0;
+    border-radius: 5px;
+    padding: 13px;
+    color: #f1eeeb;
+    margin-left: 300px;
+    margin-top: 18px;
+	font-family: 'Asap Condensed', sans-serif;
+
+}
+#loginform{
+    top:-680px;
+    left: 0px;
+    position: absolute;
+	background-image: url('../image/doctor3.jpg');
+    background-size: 100% 100%;
+}
+#loginform form{
+       width: 1210px;
+    height: 544px; 
+    padding: 39px;
+    border-radius: 15px;
+    
+    
+}
+#loginform form input:not(#ss){
+    margin: 19px;
+        width: 347px;
+    background: transparent;
+    color: black;
+    height: 38px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    text-align: center;
+	color: azure;
+
+}
+#loginform form #ss{
+	text-align: center;
+    position: relative;
+    left: 153px;
+    width: 107px;
+    height: 43px;
+	    font-size: 20px;
+    background-color: white;
+    border: 0;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#loginform form #ss:active{
+	background-color: beige;
+}
+#loginform form input:not(#ss):active{
+	border-top-width: 0px;
+    border-bottom-width: 2px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+	border-bottom-color: forestgreen;
+}
+#loginform i{
+    cursor: pointer;
+    color: crimson;
+	float: right;
+}
+/*reserve page*/
+#reserve form{
+	width: 60%;
+	margin: 0 auto;
+}
+#reserve form input{
+	margin: 60px;
+    width: 66%;
+    padding: 14px 2px 6px 8px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    border-color: black;
+    border-radius: 16px 0;
+}
+#reserve form input[type="submit"]{
+	width: 30%;
+	border-radius: 10px 0;
+	float: right;
+	cursor: pointer;
+	color: green;
+	transition: all 1s;
+}
+#reserve form input[type="submit"]:hover{
+	background-color: green;
+	color: white;
+}
+#reserve form  select{
+	
+    margin: 29px;
+    width: 66%;
+    padding: 14px 2px 6px 8px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    border-color: black;
+    border-radius: 16px 0;
+	margin-left: 49px;
+
+}
+#reserve form  select option{
+	color: black;
+}

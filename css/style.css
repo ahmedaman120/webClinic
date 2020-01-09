@@ -1,0 +1,367 @@
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+	
+}
+#header{
+  background-image: url('../image/background.jpg');
+margin-top: 0;
+  background-size: 100% 100%;
+  height: 100vh;
+  color: #FFF
+}
+#overlay{
+  background-color: rgba(0 , 0, 0, 0.6);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+#header #overlay #nav{
+  clear: both;
+  height: 46px;
+  background-color: rgba(0,0,0,.5);
+}
+#header #overlay #nav ul{
+  margin:0;
+  text-align: center;
+
+}
+#header #overlay #nav ul li{
+  list-style: none;
+  float: right;
+  margin: 10px 8px;
+  border-right: 1px solid #FFF;
+  padding: 0 10px ;
+  text-align: center;
+  font-weight: lighter;
+  margin-left: 0px;
+    padding-left: 0px;
+    font-size: 20px;
+}
+#header #overlay #nav ul li a{
+  text-decoration: none;
+  color: inherit;
+
+}
+#header #overlay #nav ul li a:hover{
+  color: rgb(11, 128, 90);
+}
+#header #overlay #nav a img{
+  height: 43px;
+float: right;
+margin-right: 90px;
+}
+#header #overlay #nav ul li:nth-child(1){
+  border-right: 0 ;
+  padding-left: 0;
+  margin-left: 0;
+}
+#header #overlay #search {
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid gray;
+  font-size: 20px;
+  width: 400px;
+    float: right;
+    margin: 10px 45px;
+}
+#header #overlay #search form  i{
+  color: gray;
+  padding-right: 6;
+  margin-right: 0;
+}
+#header #overlay  #search form  input{
+  background: transparent;
+    border: 0;
+    width: 361px;
+    border-collapse: collapse;
+    color: gray;
+    padding-left: 6px;
+}
+#header #overlay #headerCon{
+  text-align: center;
+    padding-top: 135px;
+}
+#header #overlay #headerCon img{
+  width: 525px;
+
+}
+#header #overlay #headerCon #content h1{
+  font-family: 'Asap Condensed', sans-serif;
+word-spacing: 10px;
+font-size: 43px;
+}
+#header #overlay #headerCon #content p{
+  font-family: 'Asap Condensed', sans-serif;
+  word-spacing: 4px;
+}
+#header #overlay #headerCon #content button{
+  padding: 15px;
+    background: transparent;
+    border-radius: 26px;
+    width: 159px;
+    color: inherit;
+    font-size: larger;
+	color:  rgba(11, 128, 90, 1);
+
+
+}
+#header #overlay #headerCon #content button:hover{
+  cursor: pointer;
+  background: rgba(11, 128, 90, 1);
+  color: #FFF;
+  -webkit-transition:all .5s ease-in-out;
+  -moz-transition:all .5s ease-in-out;
+  transition:all .5s ease-in-out;
+    
+
+}
+/*department*/
+#department{
+    padding: 20px;
+        padding: 68px;
+
+}
+#department img{
+    float: right;
+    border-radius: 6px;
+}
+#department #welcome{
+    width: 600px;
+    border-right: 1px dashed black;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 19px;
+    word-spacing: 6px;
+}
+#department #welcome h3 span{
+    color: forestgreen;
+}
+#department #welcome p{
+    margin-left: 6px;
+    }
+#department #welcome ul {
+    padding-left: 11px;
+    list-style: none;
+}
+#department #welcome ul li i {
+    color: forestgreen;
+}
+#department #about_department{
+    margin-top: 85px;
+    clear: both;
+    height: 1400px;
+    border: 1px solid ;
+    padding: 45px;
+    border-radius: 5px;
+    background-color: rgba(147,147,147,.3);
+    color: aliceblue;
+}
+#department #about_department p{
+    color: black;
+    line-height: 25px;
+}
+#department #about_department #Surgery,#department #about_department #Cardiology,
+#department #about_department #Pediatics,#department #about_department #First_Aid{
+    width: 400px;
+    font-family: 'Asap Condensed', sans-serif;
+    
+    word-spacing: 6px;
+}
+#department #about_department #Surgery h2,#department #about_department #Cardiology h2,
+#department #about_department #Pediatics h2,#department #about_department #First_Aid h2{
+   color: green;
+}
+#department #about_department #Surgery p,#department #about_department #Cardiology p,
+#department #about_department #Pediatics p,#department #about_department #First_Aid p{
+    padding: 6px;
+    
+}
+#department #about_department #Surgery{
+    float: left;
+    padding-right: 144px;
+    border-right: 1px dashed;
+}
+#department #about_department #Cardiology{
+    clear: both;
+    float: right;
+    border-left: 1px dashed;
+    padding-left: 163px;
+}
+#department #about_department #Pediatics{
+    clear: both;
+    float: left; 
+    padding-right: 144px;
+    border-right: 1px dashed;
+}
+#department #about_department #First_Aid{
+    clear: both;
+    float: right;
+    border-left: 1px dashed;
+    padding-left: 163px;
+}
+#department #about_department .left{
+    position: relative;
+    left: 180px;
+}
+#department #about_department .right{
+    position: relative;
+    left: -531px;
+}
+/*Our manger style*/
+#ourManger img{
+    width: 124px;
+    height: 120px;
+    border: 1px solid green;
+    border-radius: 64px;
+    margin-top: 80px;
+}
+#ourManger .doctor p{
+    color: darkcyan;
+    padding-left: 30px;
+}
+#ourManger .doctor  img:nth-child(1){
+    margin-left: 50px;
+}
+#ourManger .doctor{
+    border: 1px solid green;
+   float: left;
+    margin: 4px;
+    padding-right: 53px;
+    padding-bottom: 29px;
+    border-radius: 9px;
+    font-size: 20px;
+    font-weight: 500;
+  
+}
+#ourManger{
+    color: forestgreen;
+    height: 500px;
+    text-align: center;
+    background-image: url('../image/doctor3.jpg');
+    background-size: 100% 100%  ; 
+    background-color: rgba(0 , 0, 0, 0.6);
+        font-family: 'Asap Condensed', sans-serif;
+}
+/*Contact us*/
+#comment{
+     font-family: 'Asap Condensed', sans-serif;
+    height: 500px;
+    background-image: url("../image/doctor2.jpg");
+    background-size: 100% 100%  ;
+    color: #FFF;
+    
+}
+#comment h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0;
+}
+#comment iframe,form{
+    
+    float: left
+        
+}
+#comment iframe {
+	visibility: inherit;
+    margin-left: 350px;
+    resize: none
+}
+#comment form input ,textarea{
+    background-color: transparent;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 6px;
+    margin-top: 7px;
+    width: 309px;
+}
+#comment form input[type="submit"]{
+    width: 100px;
+}
+#comment form input[type="submit"]:hover{
+cursor: pointer;
+  background: rgba(11, 128, 90, 1);
+  -webkit-transition:all .5s ease-in-out;
+  -moz-transition:all .5s ease-in-out;
+  transition:all .5s ease-in-out;
+}
+#comment form textarea{
+    resize: none;
+   
+}
+/*footer*/
+#comment #footer {
+    font-family: monospace;
+    color: aliceblue;
+    background-color: rgba(0,0,0,.7);
+    font-size: 16px;
+    text-align: center
+    
+}
+#comment #footer h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#comment #footer h3 span{
+    color: green;
+}
+#comment #footer img{
+    margin-left: 15px;
+}
+#loginform{
+    top:-680px;
+    left: 0px;
+    position: absolute;
+	background-image: url('../image/doctor3.jpg');
+    background-size: 100% 100%;
+}
+#loginform form{
+       width: 1210px;
+    height: 544px; 
+    padding: 39px;
+    border-radius: 15px;
+    
+    
+}
+#loginform form input:not(#ss){
+    margin: 19px;
+        width: 347px;
+    background: transparent;
+    color: black;
+    height: 38px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    text-align: center;
+	color: azure;
+
+}
+#loginform form #ss{
+	text-align: center;
+    position: relative;
+    left: 153px;
+    width: 107px;
+    height: 43px;
+	font-size: 20px;
+    background-color: white;
+    border: 0;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#loginform form #ss:active{
+	background-color: beige;
+}
+#loginform form input:not(#ss):active{
+	border-top-width: 0px;
+    border-bottom-width: 2px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+	border-bottom-color: forestgreen;
+}
+#loginform i{
+    cursor: pointer;
+    color: crimson;
+	float: right;
+}

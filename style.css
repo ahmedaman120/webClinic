@@ -1,0 +1,384 @@
+body{margin:0;padding:0;}
+#top1
+{
+
+}
+
+#container
+{
+	width:960px;
+	height:500px;
+	margin:0 auto;
+	padding:10px;
+}
+#hTop
+{
+	height:50px;
+}
+
+#hTop_nav
+{
+	margin-top:-10px;
+	float:right;
+}
+
+#hTop_nav ul li
+{
+	float:left;
+	border-right:1px solid #dadada;
+	height:50px;
+	display:block;
+	padding:0px 10px 0px 10px;
+}
+
+
+
+#submenu
+{
+	position:absolute;
+	display:none;
+	margin-top:9px;
+	width:160px;
+	background:#003c72;
+}
+#submenu a
+{
+	color:white;
+	padding:10px;
+
+	display:block;
+}
+#submenu a:hover
+{
+	background:#0062b9;
+
+}
+
+#hBottom ul li.noPLeft:hover #submenu
+{
+	display:block;
+}
+#content
+{
+	margin-top:20px;
+	padding:20px;
+}
+.products
+{
+	width:280px;
+	margin:10px;
+	border:2px solid #dadada;
+	height:260px;
+	float:left;
+}
+.products img
+{
+	width:100%;
+	height:150px;
+}
+
+.products p
+{
+	width:280px;
+	height:50px;
+	margin-left:20px;
+}
+.products div.cmore
+{
+	padding:7px 15px;
+	width:250px;
+	color:gray;
+	font-size:12px;
+	cursor:pointer;
+	border-top:2px solid #dadada;
+	height:80px;
+	display:block;
+}
+#content h1
+{
+	color:#444444;
+	clear:both;
+	font-family:sans-serif;
+}
+.mproducts
+{
+	width:280px;
+	margin:10px;
+	border:2px solid #dadada;
+	height:260px;
+	float:left;
+}
+
+.mproducts p
+{
+	width:280px;
+	height:10px;
+	margin-left:20px;
+}
+.seemore
+{
+	margin-top:10px;
+	padding:7px 15px;
+	width:250px;
+	color:gray;
+	font-size:12px;
+	cursor:pointer;
+	border-top:1px solid #dadada;
+	height:60px;
+	display:block;
+}
+/*added*/
+.container{
+  width: 1200px;
+  margin: 0 auto;
+	
+}
+#header{
+  
+margin-top: 0;
+  background-size: 100% 100%;
+  
+  
+}
+
+#header #overlay #nav{
+  clear: both;
+  height: 46px;
+  background-color: #003b73;
+}
+#header #overlay #nav ul{
+  margin:0;
+  text-align: center;
+
+}
+#header #overlay #nav ul li{
+  list-style: none;
+  float: right;
+  margin: 10px 8px;
+  border-right: 1px solid #FFF;
+  padding: 0 10px ;
+  text-align: center;
+  font-weight: lighter;
+  margin-left: 0px;
+    padding-left: 0px;
+    font-size: 20px;
+}
+#header #overlay #nav ul li a{
+  text-decoration: none;
+  color: inherit;
+
+}
+#header #overlay #nav ul li a:hover{
+  color: rgb(11, 128, 90);
+}
+#header #overlay #nav ul li:nth-child(1){
+  border-right: 0 ;
+  padding-left: 0;
+  margin-left: 0;
+}
+#header #overlay #search {
+  position: relative;
+  font-size: 20px;
+  width: 400px;
+    float: right;
+    margin: 10px 45px;
+	margin-bottom: 0px;
+    width: 400px;
+    height: 36px;
+}
+#header #overlay #search form  i{
+  color: gray;
+  padding-right: 6;
+  margin-right: 0;
+}
+#header #overlay  #search form  input{
+  
+    border: 0;
+    width: 361px;
+    color: gray;
+    padding-left: 6px;
+}
+#header #overlay #nav a img {
+    height: 43px;
+    float: right;
+    margin-right: 90px;
+}
+normalize.css:220
+img {
+    border-style: none;
+}
+#loginform{
+    top:-680px;
+    left: 0px;
+    position: absolute;
+	background-image: url('image/doctor3.jpg');
+    background-size: 100% 100%;
+}
+#loginform form{
+       width: 1210px;
+    height: 544px; 
+    padding: 39px;
+    border-radius: 15px;
+    
+    
+}
+#loginform form input:not(#ss){
+    margin: 19px;
+        width: 347px;
+    background: transparent;
+    color: black;
+    height: 38px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    text-align: center;
+	color: azure;
+
+}
+#loginform form #ss{
+	text-align: center;
+    position: relative;
+    left: 153px;
+    width: 107px;
+    height: 43px;
+	    font-size: 20px;
+    background-color: white;
+    border: 0;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#loginform form #ss:active{
+	background-color: beige;
+}
+#loginform form input:not(#ss):active{
+	border-top-width: 0px;
+    border-bottom-width: 2px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+	border-bottom-color: forestgreen;
+}
+#loginform i{
+    cursor: pointer;
+    color: crimson;
+	float: right;
+}
+/*contentAcc*/
+#contentAcc{
+	width: 100%;
+	margin: 0;
+}
+#contentAcc #identity{
+	width: 30%;
+	float: left;
+	height: 100vh;
+	margin: 0;
+	
+}
+#contentAcc #messages{
+	width: 70%;
+	float: left;
+	height: 100vh;
+	margin: 0;
+	
+}
+#contentAcc #identity #card{
+	margin: 15px auto;
+	width: 80%;
+	color: black;
+	font-family: cursive;
+	border: 1px dotted;
+	padding: 18px;
+	border-radius: 10px;
+	text-align: center;
+}
+#contentAcc #identity #card p>span{
+		font-weight: bold;
+}
+#contentAcc #identity img{
+	height: 150px;
+	border-radius: 50%;
+	border: 1px dashed;
+	padding: 2px;
+}
+#contentAcc #identity #emailSend {
+	border: 1px dotted;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 80%;
+	padding: 10px;
+	border-radius: 10px; 
+	overflow: hidden;
+}
+#contentAcc #identity form textarea{
+	height: 106px;
+    width: 70%;
+    margin-left: 31px;
+    resize: none;
+    overflow: scroll;
+}
+#contentAcc #identity form input[value="SEND"]{
+	float: right;
+    width: 42%;
+    height: 26px;
+    margin: 10px;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 14px;
+    color: black;
+	transition: 1s ease-in-out;
+}
+#contentAcc #identity form input[value="SEND"]:hover{
+	background-color: darkblue;
+	color: white;
+	
+}
+#contentAcc #identity form input{
+	margin: 10px;
+}
+#contentAcc #identity form input[id="to"]{
+	margin-left: 17px;
+	margin-bottom: 0;
+}
+#contentAcc #messages table{
+	width: 70%;
+	margin: 30px auto;
+}
+#contentAcc #messages table th,td{
+	border: 1px solid; 
+	border-color: skyblue;
+	border-radius: 10px;
+}
+
+#contentAcc #messages table thead  th,td:first-child{
+	width: 60px ;
+}
+#contentAcc #messages table thead  th,td:last-child{
+	width: 60px;
+}
+
+#contentAcc #messages table tr td{
+	padding: 15px;
+	margin: 6px 0;
+	font-family: italic;
+}
+#contentAcc #messages table tr td:nth-child(1){
+	background-color: skyblue;
+	color: black;
+}
+#please input{
+	margin: 15px auto;
+    width: 100%;
+    padding: 16px;
+    border-radius: 24px 0;
+    cursor: pointer;
+	background-color: transparent;
+    color: green;
+    font-size: x-large;
+    border: 1px solid;
+	transition: 1s ease-in-out;
+}
+#please input:hover{
+		color: #FFF;
+		background-color: green;
+}
